@@ -1,0 +1,31 @@
+.avatar {
+    object-fit: contain;
+    height: 40px;
+}
+
+.netflix-logo {
+    object-fit: contain;
+    height: 45px;
+}
+
+.flex-nav-container {
+    
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    position:fixed;
+    top : 0;
+    width :100%;
+    padding:5px;
+    /* z-index : 1 means this will always be on top */
+    z-index: 1;
+    height:60px;
+    /* here telling to add transition all if width changes opacity or anything*/
+    /* transition-timing-function: ease-in; */
+    transition : all 0.5s;
+    
+}
+
+.nav-black {
+    background-color: black;
+}
