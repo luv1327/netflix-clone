@@ -8,7 +8,6 @@ import Nav from './components/Nav'
 class App extends React.Component{
     render(){
         return (
-            // isLargeRow props means true but no need to write that
             <div className="app-component">
                 {/* all this is giving me url */}
                 <Nav/>

@@ -43,7 +43,7 @@ function Banner({fetchUrl}) {
 
                  {/* telling to look for movie.name if movie.title is not found by ? mark */}
 
-                 <h4 className='banner-title'>{movie?.title || movie?.name || movie.original_name}</h4>
+                 <h4 className='banner-title'>{movie?.title || movie?.name || movie?.original_name}</h4>
 
                  {/* <img class='banner-image' src={`${baseUrl}${movie.poster_path}`} alt={movie.name}></img> */}
 
